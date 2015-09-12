@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Template</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	
+	<!-- Required javascript libraries. Add your own libraries here. -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/lib/connection.js"></script>
+
+	<!-- Load your controller's javascript here. -->
+	<script src="/js/controllerManager.js"></script>
+
+	<div class="controller" id = "running">
+		<img src = "./img/tempHeart.png" alt = "Pulsing Heart" style = "width:250px;height:300px;verticalalign:center;">
+	</div>
+	<div id = "hamburger">
+		<img src = "./img/hamburger.png" alt = "hamburgerMenu" style = "width:100px;height:100;">
+		<div id = "pause"></div>
+		<div id = "quit"></div>
+	</div>
+</body>
+</html>

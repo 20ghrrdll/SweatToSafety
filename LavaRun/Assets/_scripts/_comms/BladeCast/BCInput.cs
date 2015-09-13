@@ -97,10 +97,10 @@ namespace BladeCast
 			Debug.Log ("New Connection: " + msg.ControllerSource);
 		}
 
-		private void moveLava(ControllerMessage msg){
-			if(msg.Payload.HasField("
+		/*private void moveLava(ControllerMessage msg){
+			if(msg.Payload.HasField)
 			GameObject.Find ("PlayerStatsGameObject").GetComponent<PlayerStats> ().shiftLavaUp ();
-		}
+		}*/
 	}
 
 }
